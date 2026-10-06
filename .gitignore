@@ -1,0 +1,48 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+env/
+
+# Environment / API keys
+.env
+.env.*
+!.env.example
+
+# ResearchAI database
+researchai.db
+*.db
+*.sqlite
+*.sqlite3
+
+# ChromaDB
+backend/chroma_db/
+chroma_db/
+chroma/
+.chromadb/
+
+# Generated vector data
+backend/vector_data/
+
+# Uploaded research papers
+backend/uploads/
+*.pdf
+
+# React / Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Logs
+*.log
+*.tmp
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
